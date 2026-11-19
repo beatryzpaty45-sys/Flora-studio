@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flora Studio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, serif;
+            background: #faf7f4;
+            color: #493d3b;
+        }
+
+        header {
+            padding: 25px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+        }
+
+        header h2 {
+            color: #9b777c;
+            letter-spacing: 2px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #493d3b;
+            margin-left: 20px;
+        }
+
+        .hero {
+            min-height: 75vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+            background: #eadcda;
+        }
+
+        .hero h1 {
+            font-size: clamp(42px, 7vw, 76px);
+            margin-bottom: 20px;
+            font-weight: normal;
+        }
+
+        .hero p {
+            font-size: 19px;
+            margin-bottom: 30px;
+        }
+
+        .hero a {
+            background: #9b777c;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+
+        .about {
+            padding: 80px 20px;
+            text-align: center;
+            max-width: 750px;
+            margin: auto;
+            line-height: 1.8;
+        }
+
+        footer {
+            padding: 25px;
+            text-align: center;
+            background: white;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>FLORA STUDIO</h2>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="inicio">
+        <h1>A beleza está nos detalhes.</h1>
+        <p>Flores que transformam momentos em memórias.</p>
+        <a href="#sobre">Conhecer a nossa história</a>
+    </section>
+
+    <section class="about" id="sobre">
+        <h2>Um pouco sobre nós</h2>
+        <p>
+            No Flora Studio, acreditamos que cada flor
+            conta uma história. Criamos arranjos especiais
+            para tornar cada momento ainda mais bonito.
+        </p>
+    </section>
+
+    <footer>
+        © 2026 Flora Studio — Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>
